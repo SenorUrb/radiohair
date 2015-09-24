@@ -1,0 +1,15 @@
+$body-bg: #fff;
+$header-bg: blue;
+$link-color: red;
+
+body {
+	background-color: $body-bg;
+}
+//  Zaklad
+@import "variables";
+@import "base";
+@import "header";
+@import "footer";
+
+//homepage
+@import "homepage";
