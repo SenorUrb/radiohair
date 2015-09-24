@@ -11,13 +11,41 @@ html,body{
     -moz-box-sizing: border-box;
     box-sizing: border-box;  
 }
-h1, h2, h3, h4, h5{
-    font-family: $font2;
-    font-size: 36px;
-    text-align: center;
-}
 
 section{
     width: 100%;
     position: relative;
 }
+
+.fbg{
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*
+*   Vertikalni centrovani pomoci flexbox
+*
+*/
+.flex-container-vert {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+		
+ 
+.flex-items-default {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
+}
+		
+ .flex-item-1 {
+    width: 300px;
+    height: 250px;
+}
+	

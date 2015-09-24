@@ -1,0 +1,19 @@
+#header{
+    position: fixed;
+    top: 0px;
+    color: #ffffff;
+    font: 400 12px / 71.539px Calibre;
+    width: 100%;
+    z-index: 2;
+    
+    a{
+        color: #ffffff;
+        font: 400 12px / 71.539px Calibre;
+    }
+    
+    .logo{
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+    }
+}
